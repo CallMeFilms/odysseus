@@ -1,0 +1,188 @@
+{
+  "plugin":{
+    "name":"Plugin Request",
+    "questions":[
+      {
+        "question":"Please describe your request in 50 to 1000 characters",
+        "type":"str",
+        "min":50,
+        "max":1000
+      },
+      {
+        "question":"What version of MC would you like for the requested plugin to be written in?",
+        "type":"str",
+        "min":3,
+        "max":100
+      },
+      {
+        "question":"Is there anything else we should know regarding your request?",
+        "type":"str",
+        "min":1,
+        "max":1000
+      },
+      {
+        "question":"What is the email of the paypal account that payment will be made through?",
+        "type":"email"
+      }
+    ],
+    "timeout":5,
+    "timeoutStatement":"Form has timed out due to inactivity...",
+    "endStatement":"Thank you for filling out a plugin request. You will be notified when a team member accepts your request."
+  },
+  "bot":{
+    "name":"Bot Request",
+    "questions":[
+      {
+        "question":"Please describe your request in 50 to 1000 characters",
+        "type":"str",
+        "min":50,
+        "max":1000
+      },
+      {
+        "question":"Is there anything else we should know regarding your request?",
+        "type":"str",
+        "min":1,
+        "max":1000
+      },
+      {
+        "question":"What is the email of the paypal account that payment will be made through?",
+        "type":"email"
+      }
+    ],
+    "timeout":5,
+    "timeoutStatement":"Form has timed out due to inactivity...",
+    "endStatement":"Thank you for filling out a bot request. You will be notified when a team member accepts your request."
+  },
+  "configurations":{
+    "name":"configurations",
+    "questions":[
+      {
+        "question":"Please describe your request in 50 to 1000 characters",
+        "type":"str",
+        "min":50,
+        "max":1000
+      },
+      {
+        "question":"Is there anything else we should know regarding your request?",
+        "type":"str",
+        "min":1,
+        "max":1000
+      },
+      {
+        "question":"What is the email of the paypal account that payment will be made through?",
+        "type":"email"
+      }
+    ],
+    "timeout":5,
+    "timeoutStatement":"Form has timed out due to inactivity...",
+    "endStatement":"Thank you for filling out a configurations request. You will be notified when a team member accepts your request."
+  },
+  "setups":{
+    "name":"Discord Setups Request",
+    "questions":[
+      {
+        "question":"Please describe your request in 50 to 1000 characters",
+        "type":"str",
+        "min":50,
+        "max":1000
+      },
+      {
+        "question":"Is there a reference (another server) you would like our team to base your setup on? If so, please provide an invite.",
+        "type":"str",
+        "min":1,
+        "max":1000
+      },
+      {
+        "question":"Please provide an invite to your server.",
+        "type":"str",
+        "min":1,
+        "max":50
+      },
+      {
+        "question":"Is there anything else we should know regarding your request?",
+        "type":"str",
+        "min":1,
+        "max":1000
+      },
+      {
+        "question":"What is the email of the paypal account that payment will be made through?",
+        "type":"email"
+      }
+    ],
+    "timeout":5,
+    "timeoutStatement":"Form has timed out due to inactivity...",
+    "endStatement":"Thank you for filling out a discord setups request. You will be notified when a team member accepts your request."
+  },
+  "graphics":{
+    "name":"Graphic Design Request",
+    "questions":[
+      {
+        "question":"Please describe your request in 50 to 1000 characters",
+        "type":"str",
+        "min":50,
+        "max":1000
+      },
+      {
+        "question":"Is there anything else we should know regarding your request?",
+        "type":"str",
+        "min":1,
+        "max":1000
+      },
+      {
+        "question":"What is the email of the paypal account that payment will be made through?",
+        "type":"email"
+      }
+    ],
+    "timeout":5,
+    "timeoutStatement":"Form has timed out due to inactivity...",
+    "endStatement":"Thank you for filling out a graphic design request. You will be notified when a team member accepts your request."
+  },
+  "web":{
+    "name":"Web Development Request",
+    "questions":[
+      {
+        "question":"Please describe your request in 50 to 1000 characters",
+        "type":"str",
+        "min":50,
+        "max":1000
+      },
+      {
+        "question":"Is there anything else we should know regarding your request?",
+        "type":"str",
+        "min":1,
+        "max":1000
+      },
+      {
+        "question":"What is the email of the paypal account that payment will be made through?",
+        "type":"email"
+      }
+    ],
+    "timeout":5,
+    "timeoutStatement":"Form has timed out due to inactivity...",
+    "endStatement":"Thank you for filling out a web development request. You will be notified when a team member accepts your request."
+  },
+  "build":{
+    "name":"Minecraft Build Request",
+    "questions":[
+      {
+        "question":"Please describe your request in 50 to 1000 characters",
+        "type":"str",
+        "min":50,
+        "max":1000
+      },
+      {
+        "question":"Is there anything else we should know regarding your request?",
+        "type":"str",
+        "min":1,
+        "max":1000
+      },
+      {
+        "question":"What is the email of the paypal account that payment will be made through?",
+        "type":"email"
+      }
+    ],
+    "timeout":5,
+    "timeoutStatement":"Form has timed out due to inactivity...",
+    "endStatement":"Thank you for filling out a build request. You will be notified when a team member accepts your request."
+  }
+}
