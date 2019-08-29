@@ -1,0 +1,7 @@
+{
+  "token":"NDEzODUwNTY1MTM1NTY0ODE1.XTf6Ug.KFqcmYEsDUAs-Km89jBytJairYM",
+  "prefix":"+",
+  "welcome_messages":[
+    "**{user}** was invited by **{inviter}**. Welcome!"
+  ]
+}
